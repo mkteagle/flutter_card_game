@@ -12,9 +12,23 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^1.0.3
+  audioplayers: ^5.2.1
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.0.0
+  build_runner: ^2.0.0
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/cards/
+    - assets/emojis/
+    - assets/sounds/
+    - assets/playing_card_back.svg
